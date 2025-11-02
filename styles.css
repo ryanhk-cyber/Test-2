@@ -40,6 +40,31 @@ header h1 {
     opacity: 0.9;
 }
 
+.site-link {
+    margin-top: 20px;
+}
+
+.site-link a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 12px 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid white;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.site-link a:hover {
+    background: white;
+    color: #667eea;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
 main {
     padding: 40px;
 }
